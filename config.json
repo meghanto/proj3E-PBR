@@ -1,12 +1,12 @@
 {
     "light_pos": [
         5.0,
-        0.0,
-        0.0
+        3.0,
+        2.0
     ],
     "rc": [
         0.0,
-        0.2,
+        0.7,
         0.1
     ],
     "clearcolor": [
@@ -14,6 +14,6 @@
         0.3,
         0.8
     ],
-    "camera_distance": 0.5,
-    "displacement": 1
+    "camera_distance": 1,
+    "displacement": 0
 }
