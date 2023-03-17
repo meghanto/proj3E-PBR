@@ -1,0 +1,19 @@
+{
+    "light_pos": [
+        5.0,
+        0.0,
+        0.0
+    ],
+    "rc": [
+        0.0,
+        0.2,
+        0.1
+    ],
+    "clearcolor": [
+        0.3,
+        0.3,
+        0.8
+    ],
+    "camera_distance": 0.5,
+    "displacement": 1
+}
