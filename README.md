@@ -1,6 +1,10 @@
 # Project 3E - Physically Based Rendering
 
+Compile the proj3E.cxx file, and run the executable by passing a `.gltf` file as a command line argument.
 
+For the first part ( 8 points), all the work is to be done in the fragment shader. For the additional goals, you may need to modify the other files. 
+
+I would still recommend going through the display loop of the main program.
 
 ## Instructions 
 
@@ -65,11 +69,11 @@ Then, create the TBN matrix ( a 3x3 matrix of tangent, bitangent and normal as r
 
 ### Displacement Maps and Parallax Occlusion Mapping (+3 points)
 
-For some assets, displacement maps are provided. Use them to implement [parallax occlusion mapping](https://learnopengl.com/Advanced-Lighting/Parallax-Mapping)!
+For some assets, displacement maps are provided. Use them to implement [parallax occlusion mapping](https://learnopengl.com/Advanced-Lighting/Parallax-Mapping)! Also have to modify the config file to load the displacement texture.
 
 ### Add 3 more light sources (+2 points)
 
-You have to have the intensity and color information in the config file, and figure out a way to pass the data to the fragment shaders using uniforms.
+You have to have the intensity and color information in the config file, and figure out a way to pass the data to the fragment shaders using uniforms ( have to modify the main cxx file).
 
 
 
