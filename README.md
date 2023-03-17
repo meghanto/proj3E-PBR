@@ -6,6 +6,11 @@ For the first part ( 8 points), all the work is to be done in the fragment shade
 
 I would still recommend going through the display loop of the main program.
 
+<img src="screenshots/Brasspan-full.png" width=400> <img src="screenshots/TV_full.png" width=400>
+<img src="screenshots/Compost_full.png" width=400> <img src="screenshots/Woodtexture-full.png" width=400>
+
+
+
 ## Instructions 
 
 - $p$ is the fragment position
@@ -77,5 +82,5 @@ You have to have the intensity and color information in the config file, and fig
 
 
 
-
+**Note:** The screenshots folder has helpful outputs showing just specific channel values as color for the default config parameters.
 
