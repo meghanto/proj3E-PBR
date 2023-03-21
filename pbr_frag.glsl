@@ -101,7 +101,9 @@ void main() {
     // frag_color = vec4(roughness, roughness, roughness, 1.0);
     // frag_color = vec4(normal, 1.0);
     // frag_color = vec4(AO,AO,AO,1.0);
-    // frag_color = vec4(vec3(dot(normalize(cam_dir_v),frag_norm_v)),1.0);
+    // frag_color = vec4(vec3(dot(normalize(camera_dir),frag_norm_v)),1.0);
+    // frag_color = vec4(vec3(dot(normalize(light_dir),frag_norm_v)),1.0);
+
     frag_color = vec4(color,1.0);
 
     
