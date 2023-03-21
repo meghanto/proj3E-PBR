@@ -38,7 +38,7 @@ In the above,
 - $G = G_{Smiths-Method}(N,V,L,k)$ 
 - $F = F_{Schlick}(H, V, F_0)$
 - $K_s = F$
-- $K_d = 1 - K_s$
+- $K_d = 1 - K_s$ (and 0 for all metals. multiply with (1-metallic))
 $$NDF_{TR-GGX}(N, H, \alpha) = \frac{\alpha^2}{\pi((N \cdot H)^2 (\alpha^2 - 1) + 1)^2}$$
 
 
@@ -82,5 +82,5 @@ You have to have the intensity and color information in the config file, and fig
 
 
 
-**Note:** The screenshots folder has helpful outputs showing just specific channel values as color for the default config parameters.
-
+**Note:** The screenshots folder has helpful outputs showing just specific channel values as color for the default config parameters. 
+**Note:** The results of all dot products must be positive!
