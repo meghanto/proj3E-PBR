@@ -83,4 +83,5 @@ You have to have the intensity and color information in the config file, and fig
 
 
 **Note:** The screenshots folder has helpful outputs showing just specific channel values as color for the default config parameters. 
+
 **Note:** The results of all dot products must be positive!
